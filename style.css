@@ -209,17 +209,33 @@ input[type="submit"]:hover {
 }
 
 .whatsapp-button {
-    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
     align-items: center;
     background-color: #25D366;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-family: Arial, sans-serif;
     font-size: 16px;
     transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
 }
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
 .whatsapp-button:hover {
     background-color: #128C7E;
 }
