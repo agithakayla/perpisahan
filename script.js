@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     lanjut2.style.display = 'none';
                                     typewriter
                                     .deleteAll(10)
-                                    .typeString(':teman-teman terimakasih atas kekompakan yang selalu bisa mendatangkan tawa dan Bahagia saat acara berlangsung walaupun kita pernah merasakan cape dan lelahnya karna tak henti bulak balik bagaikan setrika yang mencari jalan keluar,')
+                                    .typeString('teman-teman terimakasih atas kekompakan yang selalu bisa mendatangkan tawa dan Bahagia saat acara berlangsung walaupun kita pernah merasakan cape dan lelahnya karna tak henti bulak balik bagaikan setrika yang mencari jalan keluar,')
                                     .pauseFor(500)
                                     .typeString('<br>, tetapi kalian sangat hebat! Jasa kalian akan selalu terkenang bagaikan kita mengambil sebuah potret foto untuk dokumentasi.Satu pesanku,')
                                     .callFunction(() => {
