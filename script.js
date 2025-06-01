@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     tidak.style.display = 'none';
                                     typewriter
                                     .deleteAll(10)
-                                    .typeString('ga kerasa yahh kak sudah berpisah')
+                                    .typeString('ga kerasa yahh sudah berpisah')
                                     .pauseFor(500)
                                     .typeString('<br>padalah baru aja kemarin kenalan')
                                     .callFunction(() => {
