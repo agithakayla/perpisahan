@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tidak.style.display = 'none';
                             typewriter
                             .deleteAll(10)
-                            .typeString('tak terasa yaa teman- teman karna kita sudah ada di akhir acara dan jabatan kita sebagai Divisi 5padahal rasanya seperti baru saja kita bertemu sapa dan memberi tahu nama kita masing2')
+                            .typeString('tak terasa yaa teman- teman karna kita sudah ada di akhir acara dan jabatan kita sebagai Divisi 5 padahal rasanya seperti baru saja kita bertemu sapa dan memberi tahu nama kita masing2')
                             .pauseFor(500)
                             .typeString('<br>dan sekarang hanya bisa terkenang sebagai keluarga yang penuh suka dan duka yang telah kita Jalani Bersama')
                             .callFunction(() => {
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     .deleteAll(10)
                                     .typeString('teman-teman terimakasih atas kekompakan yang selalu bisa mendatangkan tawa dan Bahagia saat acara berlangsung walaupun kita pernah merasakan cape dan lelahnya karna tak henti bulak balik bagaikan setrika yang mencari jalan keluar,')
                                     .pauseFor(500)
-                                    .typeString('<br>, tetapi kalian sangat hebat! Jasa kalian akan selalu terkenang bagaikan kita mengambil sebuah potret foto untuk dokumentasi.Satu pesanku,')
+                                    .typeString('<br> tetapi kalian sangat hebat! Jasa kalian akan selalu terkenang bagaikan kita mengambil sebuah potret foto untuk dokumentasi.Satu pesanku,')
                                     .callFunction(() => {
                                         const lanjut3 = document.createElement('button');
                                         lanjut3.classList.add('lanjut');
