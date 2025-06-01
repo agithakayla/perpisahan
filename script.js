@@ -145,11 +145,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     
                     typewriter
                     .deleteAll(10)
-                    .typeString('Masa sih kak ga inget 😅')
+                    .typeString('Masa sih ga inget')
                     .pauseFor(1000)
                     .typeString('<br>Yaudah gapapa,')
                     .pauseFor(500)
-                    .typeString('biar aku jelasin ya😄')
+                    .typeString('biar aku jelasin ya')
                     .callFunction(() => {
                         const boleh = document.createElement('button');
                         boleh.classList.add('tau');
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             .deleteAll(10)
                             .typeString('Jadi kita sudah tidak bekerja bareng lagi 🥲')
                             .pauseFor(500)
-                            .typeString('<br>Nah aku mau ngomong sesuatu aja sih sama kakak😄')
+                            .typeString('<br>Nah aku mau ngomong sesuatu aja sih')
                             .pauseFor(500)
                             .typeString('<br><br>Lihat yaaa😁')
                             .callFunction(() => {
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             .deleteAll(10)
                             .typeString('Jadi kita itu sudah lengser🥲')
                             .pauseFor(500)
-                            .typeString('<br>Nah aku mau ngomong sesuatu aja sih sama kakak😄')
+                            .typeString('<br>Nah aku mau ngomong sesuatu aja sih')
                             .pauseFor(500)
                             .typeString('<br><br>Lihat yaaa😁')
                             .callFunction(() => {
